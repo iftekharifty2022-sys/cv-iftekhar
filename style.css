@@ -1,0 +1,164 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    margin: 0 auto;
+    
+}
+
+.resume-wrapper-inner {
+   max-width: 1200px; 
+    width: 95;      
+    margin: 0 auto;
+
+
+}
+
+.resume-header {
+    background: #838383; 
+    color: #fff;
+}
+
+.profile-img {
+    width: 160px;
+    height: 180px;
+    padding-left: 20px;
+    object-fit: cover;
+
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.title {
+    padding-left: 5px;
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.resume-header a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.resume-header a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 2px;
+}
+
+.resume-social i {
+    font-size: 0.5rem;
+    color: #ffffff;
+    width: 20px;
+    padding-left: 15px;
+    
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767.98px) {
+    .profile-img {
+        width: 100%;
+        height: auto;
+    }
+    .secondary-info {
+        border-top: 1px solid rgba(255,255,255,0.1);
+        padding-top: 15px;
+    }
+}
+
+.resume-body {
+    display: block; 
+    width: 100%;
+    padding: 20px 40px; 
+}
+
+
+.objective-section .resume-section-title {
+    
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #04f9c4;
+    padding: 8px 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-radius: 2px;
+}
+
+
+.resume-section-content p {
+   
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: left; 
+    padding: 5px 0;
+}
+.mb-2{
+    padding-left: 5px;
+}
+.mb-0{
+    padding-left: 5px;
+}
+
+.resume-section-title {
+     font-size: 1.2rem;
+    color: #000;
+    background-color: #04f9c4; 
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    text-align: left; 
+    border-radius: 2px;
+}
+
+
+.resume-section-content {
+   font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: left; 
+    padding: 6px 10;
+}
+
+.signature-section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 50px;
+    width: 100%;
+}
+
+.signature-content {
+    text-align: center;
+    width: 200px;
+}
+
+.signature-img {
+    max-width: 200px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.signature-line {
+    border-top: 1.5px solid #000; 
+    margin: 5px 0;
+}
+
+.signature-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
